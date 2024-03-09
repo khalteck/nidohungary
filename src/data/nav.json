@@ -1,0 +1,9 @@
+[
+  { "name": "Home", "link": "/" },
+  { "name": "News", "link": "/news" },
+  { "name": "Community", "link": "/community" },
+  { "name": "Information", "link": "/information" },
+  { "name": "About Us", "link": "/about" },
+  { "name": "Contact Us", "link": "/contact" },
+  { "name": "Donate", "link": "/#donate" }
+]

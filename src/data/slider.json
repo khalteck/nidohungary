@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/slide1.jpg",
+    "title": "Bringing Ideas To Life",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
+    "tag": "Ideas"
+  },
+  {
+    "image": "/images/slide2.jpg",
+    "title": "Unleashing Africa's Creativity",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
+    "tag": "Creativity"
+  },
+  {
+    "image": "/images/slide3.jpg",
+    "title": "Empowering Innovation",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
+    "tag": "Innovations"
+  }
+]
