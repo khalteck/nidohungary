@@ -9,7 +9,6 @@ const NewsDetails = () => {
   const { slug } = useParams();
   const currentNews = news?.filter((x) => x?.slug === slug)[0];
 
-  console.log("currentNews", currentNews);
   return (
     <>
       <Header />
