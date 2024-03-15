@@ -22,7 +22,7 @@ const Section3 = () => {
         data-aos-delay="200"
         alt=""
         src="/images/slide3.jpg"
-        className="w-full md:w-1/2 h-auto md:h-[400px]"
+        className="w-full md:w-1/2 h-auto"
       />
     </section>
   );

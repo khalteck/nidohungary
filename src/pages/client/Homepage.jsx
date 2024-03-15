@@ -9,6 +9,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTopButton from "../../components/common/ScrollToTopButton";
 import Section4 from "../../components/home/Section4";
+import Section5 from "../../components/home/Section5";
+import Section6 from "../../components/home/Section6";
 
 const Homepage = () => {
   useEffect(() => {
@@ -23,9 +25,8 @@ const Homepage = () => {
         <Section2 />
         <Section3 />
         <Section4 />
-        <section className="w-full min-h-[500px] p-[100px]">
-          <h2 className="text-[2.5rem]">News</h2>
-        </section>{" "}
+        <Section5 />
+        <Section6 />
       </main>
 
       <ScrollToTopButton />

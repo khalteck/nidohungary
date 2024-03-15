@@ -6,9 +6,8 @@ const Section4 = () => {
   const [selectedPrice, setSelectedPrice] = useState(null);
   const [other, setother] = useState(false);
 
-  console.log("selectedPrice", selectedPrice);
   return (
-    <section className="w-full min-h-[500px] bg-[#082f49] p-5 py-[80px] md:p-[100px] text-neutral-50 flex flex-col md:flex-row gap-10 justify-between">
+    <section className="w-full min-h-[500px] bg-[#082f49] px-5 py-[60px] md:p-[100px] text-neutral-50 flex flex-col md:flex-row gap-10 justify-between">
       <div className="w-full md:w-[40%]">
         <h2 className="text-[2.5rem]">Donate</h2>
         <p className="mt-2">
@@ -21,7 +20,7 @@ const Section4 = () => {
       </div>
       <div className="w-full md:w-[40%]">
         <h3 className="font-medium text-[1.5rem]">Help us do more</h3>
-        <div className="w-full flex flex-wrap gap-5 mt-6">
+        <div className="w-full grid grid-cols-3 md:grid-cols-4 gap-5 mt-6">
           {donateData?.map((item, index) => {
             return (
               <DonateCard
@@ -37,10 +36,10 @@ const Section4 = () => {
         {other && (
           <div className="mt-6 flex flex-col gap-1">
             <label>Enter Amount</label>
-            <input className="w-[200px] outline-none border-2 border-neutral-50 p-2 rounded-xl bg-transparent" />
+            <input className="w-full max-w-[600px] outline-none border-2 border-neutral-50 p-2 rounded-xl bg-transparent" />
           </div>
         )}
-        <button className="w-full bg-neutral-50 text-black p-3 rounded-lg mt-6">
+        <button className="w-full max-w-[600px] bg-neutral-50 text-black p-3 rounded-lg mt-6">
           Proceed
         </button>
       </div>

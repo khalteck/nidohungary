@@ -9,6 +9,7 @@ import sliderData from "../../data/slider.json";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
+import Typewriter from "typewriter-effect";
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,9 +51,6 @@ const Carousel = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        // pagination={{
-        //   clickable: true,
-        // }}
         modules={[Autoplay, EffectCreative, Navigation]}
         onSlideChange={(swiper) => handleSlideChange(swiper)}
         ref={swiperRef}
@@ -75,6 +73,13 @@ const Carousel = () => {
                     </div>
                     <h1 className="text-[2rem] md:text-[3rem] lg:text-[3.5rem] font-medium mt-2 first-text">
                       {item?.title}
+                      {/* <Typewriter
+                        options={{
+                          strings: [item?.title],
+                          autoStart: false,
+                          loop: false,
+                        }}
+                      /> */}
                     </h1>
                     <div className="w-[80%] md:pl-[100px] flex gap-5 mt-5 md:text-[.1.1rem]">
                       <div className="w-[100px] h-[1px] bg-white mt-2 first-text"></div>

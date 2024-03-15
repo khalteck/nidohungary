@@ -2,7 +2,7 @@
   { "name": "Home", "link": "/" },
   { "name": "About Us", "link": "/about" },
   { "name": "News", "link": "/news" },
-  { "name": "Information", "link": "/information" },
   { "name": "Community", "link": "/community" },
+  { "name": "Information", "link": "/information" },
   { "name": "Contact Us", "link": "/contact" }
 ]
