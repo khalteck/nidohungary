@@ -1,8 +1,8 @@
 [
-  { "name": "Home", "link": "/" },
-  { "name": "About Us", "link": "/about" },
-  { "name": "News", "link": "/news" },
-  { "name": "Community", "link": "/community" },
-  { "name": "Information", "link": "/information" },
-  { "name": "Contact Us", "link": "/contact" }
+  { "name": "Home", "link": "/", "route": true },
+  { "name": "About Us", "link": "/about", "route": true },
+  { "name": "News", "link": "/news", "route": false },
+  { "name": "Community", "link": "/community", "route": false },
+  { "name": "Information", "link": "/information", "route": true },
+  { "name": "Contact Us", "link": "/contact", "route": true }
 ]

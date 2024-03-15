@@ -11,11 +11,28 @@ import ScrollToTopButton from "../../components/common/ScrollToTopButton";
 import Section4 from "../../components/home/Section4";
 import Section5 from "../../components/home/Section5";
 import Section6 from "../../components/home/Section6";
+import { useAppContext } from "../../contexts/AppContext";
 
 const Homepage = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const href = window.location.href;
+
+  useEffect(() => {
+    if (
+      href?.includes("news") ||
+      href?.includes("community") ||
+      href?.includes("donate")
+    ) {
+      const sectionSplit = href?.split("#");
+      const sectionName = sectionSplit[sectionSplit?.length - 1];
+      const section = document.getElementById(sectionName);
+      section.scrollIntoView({ top: 0, behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <>
       <Header />

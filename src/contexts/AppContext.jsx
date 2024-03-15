@@ -18,6 +18,7 @@ const AppContextProvider = ({ children }) => {
       value={{
         currentPage,
         loader,
+        navigate,
       }}
     >
       {children}

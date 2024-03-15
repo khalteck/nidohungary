@@ -5,6 +5,10 @@ import Loader from "./components/common/Loader";
 import { useAppContext } from "./contexts/AppContext";
 
 const Homepage = lazy(() => import("./pages/client/Homepage"));
+const About = lazy(() => import("./pages/client/About"));
+const Contact = lazy(() => import("./pages/client/Contact"));
+const Information = lazy(() => import("./pages/client/Information"));
+const NewsDetails = lazy(() => import("./pages/client/NewsDetails"));
 
 const PageNotFound = lazy(() => import("./pages/common/PageNotFound"));
 
@@ -14,6 +18,10 @@ function App() {
       <Routes>
         {/* client */}
         <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/information" element={<Information />} />
+        <Route path="/news/:slug" element={<NewsDetails />} />
 
         {/* admin */}
 

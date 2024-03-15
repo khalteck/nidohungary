@@ -51,16 +51,7 @@ const Footer = () => {
                 About Us
               </a>
             </p>
-            <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Return Policy
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Shipping Policy
-              </a>
-            </p>
+
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
                 Privacy Policy
@@ -74,16 +65,26 @@ const Footer = () => {
           </div>
           <div className="">
             <h6 className="mb-4 flex font-semibold uppercase justify-start">
-              MY ACCOUNT
+              Communities
             </h6>
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Shopping Cart
+                Facebook
               </a>
             </p>
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Wishlist
+                X
+              </a>
+            </p>
+            <p className="mb-4">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Instagram
+              </a>
+            </p>
+            <p className="mb-4">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                LinkedIn
               </a>
             </p>
           </div>
@@ -92,7 +93,7 @@ const Footer = () => {
               Connect
             </h6>
             <p className="mb-5">
-              Subscribe to receive updates, access to exclusive deals, and more.{" "}
+              Subscribe to receive updates, access to exclusives, and more.{" "}
             </p>
 
             <div className="flex flex-col gap-4">
@@ -101,7 +102,7 @@ const Footer = () => {
                 className="p-3 w-[200px] md:w-[300px] border-white border outline-none bg-transparent"
                 placeholder="Email Address"
               />
-              <button className="px-10 py-3 w-fit bg-[#C2A284] text-black">
+              <button className="px-10 py-3 w-fit bg-white text-black">
                 SUBSCRIBE
               </button>
             </div>

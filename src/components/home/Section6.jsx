@@ -13,7 +13,7 @@ const Section6 = () => {
     }, 100);
   }
   return (
-    <section className="w-full pt-[60px] md:px-0">
+    <section id="community" className="w-full pt-[60px] md:px-0">
       <div className="px-5 md:px-[100px]">
         <h1 className="text-[2.5rem]">Community</h1>
         <h2 className="text-[1.5rem]">Find out about our communities...</h2>

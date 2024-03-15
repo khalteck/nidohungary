@@ -7,7 +7,10 @@ const Section4 = () => {
   const [other, setother] = useState(false);
 
   return (
-    <section className="w-full min-h-[500px] bg-[#082f49] px-5 py-[60px] md:p-[100px] text-neutral-50 flex flex-col md:flex-row gap-10 justify-between">
+    <section
+      id="donate"
+      className="w-full min-h-[500px] bg-[#082f49] px-5 py-[60px] md:p-[100px] text-neutral-50 flex flex-col md:flex-row gap-10 justify-between"
+    >
       <div className="w-full md:w-[40%]">
         <h2 className="text-[2.5rem]">Donate</h2>
         <p className="mt-2">

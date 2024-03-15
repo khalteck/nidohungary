@@ -1,8 +1,11 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useAppContext } from "../../contexts/AppContext";
 
 const NewsCard = ({ item }) => {
+  const { navigate } = useAppContext();
   return (
     <div
+      onClick={() => navigate(`/news/${item?.slug}`)}
       data-aos="fade-up"
       data-aos-duration="800"
       data-aos-delay="200"

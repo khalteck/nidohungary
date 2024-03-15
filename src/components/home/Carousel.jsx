@@ -10,8 +10,10 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
 import Typewriter from "typewriter-effect";
+import { useAppContext } from "../../contexts/AppContext";
 
 const Carousel = () => {
+  const { navigate } = useAppContext();
   const [currentSlide, setCurrentSlide] = useState(0);
   const swiperRef = useRef(null);
 
@@ -86,7 +88,10 @@ const Carousel = () => {
                       {item?.body}
                     </div>
                     <div className="md:pl-[100px] mt-5">
-                      <button className="px-5 py-2 bg-white rounded-md text-black font-medium flex gap-2 items-center">
+                      <button
+                        onClick={() => navigate("/contact")}
+                        className="px-5 py-2 bg-white rounded-md text-black font-medium flex gap-2 items-center"
+                      >
                         Contact
                         <MdOutlineArrowOutward size="20px" color="black" />
                       </button>
