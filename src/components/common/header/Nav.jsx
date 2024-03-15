@@ -38,7 +38,7 @@ const Nav = ({ handleMenu }) => {
           return (
             <li
               key={index}
-              onClick={() => navigate(`/${item?.slug}`)}
+              onClick={() => navigate(`${item?.link}`)}
               className={`px-3 py-2 transition-all duration-300 hover:bg-[#082f49]/90 hover:text-white rounded-md uppercase cursor-pointer whitespace-nowrap ${
                 currentPage?.includes("contact") && "bg-[#fafafa] text-black"
               }`}
