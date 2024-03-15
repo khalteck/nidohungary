@@ -8,6 +8,7 @@ import Section3 from "../../components/home/Section3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTopButton from "../../components/common/ScrollToTopButton";
+import Section4 from "../../components/home/Section4";
 
 const Homepage = () => {
   useEffect(() => {
@@ -17,13 +18,11 @@ const Homepage = () => {
     <>
       <Header />
 
-      <main className="text-neutral-900">
+      <main className="text-neutral-900 text-[1.2rem] ">
         <Section1 />
         <Section2 />
         <Section3 />
-        <section className="w-full min-h-[500px] bg-[#082f49] p-[100px] text-white">
-          <h2 className="text-[2.5rem]">Donate</h2>
-        </section>
+        <Section4 />
         <section className="w-full min-h-[500px] p-[100px]">
           <h2 className="text-[2.5rem]">News</h2>
         </section>{" "}
