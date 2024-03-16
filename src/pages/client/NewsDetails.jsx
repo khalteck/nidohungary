@@ -15,7 +15,7 @@ const NewsDetails = () => {
 
       <main>
         <CommonSection1
-          tag={"NidiHongary News"}
+          tag={"NidoHongary News"}
           title={`News - ${currentNews?.title}`}
           body={`${currentNews?.body?.slice(0, 30)}`}
         />

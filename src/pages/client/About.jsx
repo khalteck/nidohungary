@@ -11,9 +11,9 @@ const About = () => {
 
       <main>
         <CommonSection1
-          tag={"NidiHongary"}
+          tag={"NidoHongary"}
           title={"About Us"}
-          body={" Who are we? What we do? How we do it..."}
+          body={"Who are we? What we do? How we do it..."}
         />
         <section className="w-full bg-neutral-50 p-5 md:p-[100px] text-[1.2rem]">
           <div>

@@ -9,7 +9,7 @@ const Information = () => {
 
       <main>
         <CommonSection1
-          tag={"NidiHongary"}
+          tag={"NidoHongary"}
           title={"Information"}
           body={"Get information, never miss out..."}
         />

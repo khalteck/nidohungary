@@ -11,7 +11,7 @@ const Contact = () => {
 
       <main>
         <CommonSection1
-          tag={"NidiHongary"}
+          tag={"NidoHongary"}
           title={"Contact Us"}
           body={"Reach out to us easily..."}
         />

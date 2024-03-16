@@ -1,20 +1,26 @@
 [
   {
     "image": "/images/slide1.jpg",
-    "title": "Bringing Ideas To Life",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
-    "tag": "Ideas"
+    "title": "Experience the beauty of Nigeria",
+    "body": "Beautiful people, beautiful culture",
+    "tag": "Experience"
   },
   {
     "image": "/images/slide2.jpg",
-    "title": "Unleashing Africa's Creativity",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
-    "tag": "Creativity"
+    "title": "Build a life in hungary",
+    "body": "Settle down, plan and build a life in Hungary",
+    "tag": "Life"
   },
   {
     "image": "/images/slide3.jpg",
-    "title": "Empowering Innovation",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
-    "tag": "Innovations"
+    "title": "A blend of cultures:",
+    "body": "Nigerians in Hungary",
+    "tag": "Culture"
+  },
+  {
+    "image": "/images/slide2.jpg",
+    "title": "Celebrate your heritage in Hungary",
+    "body": "Join us in celebrating our culture and heritage in Hungary",
+    "tag": "Heritage"
   }
 ]

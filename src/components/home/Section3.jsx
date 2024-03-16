@@ -1,4 +1,9 @@
+import { MdOutlineArrowOutward } from "react-icons/md";
+import { RiMoneyDollarBoxFill } from "react-icons/ri";
+import { useAppContext } from "../../contexts/AppContext";
+
 const Section3 = () => {
+  const { navigate } = useAppContext();
   return (
     <section className="w-full h-fit px-5 md:px-[100px] my-[80px] flex md:flex-row flex-col md:gap-10 gap-4">
       <div
@@ -15,6 +20,13 @@ const Section3 = () => {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate
         </p>
+        <button
+          onClick={() => navigate("/about")}
+          className="w-fit px-5 py-2 bg-[#082f49] rounded-md text-white font-medium flex gap-2 items-center"
+        >
+          Read more
+          <MdOutlineArrowOutward size="20px" color="white" />
+        </button>
       </div>
       <img
         data-aos="zoom-in"
