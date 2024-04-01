@@ -2,6 +2,7 @@ import { SiMoneygram } from "react-icons/si";
 import { FaRegLightbulb } from "react-icons/fa6";
 import { RiFundsBoxLine } from "react-icons/ri";
 import { MdBiotech } from "react-icons/md";
+import { TbWorldHeart } from "react-icons/tb";
 
 const Section2 = () => {
   return (
@@ -13,11 +14,10 @@ const Section2 = () => {
         className="w-full md:w-1/4 min-w-[200px] min-h-[300px] border-r border-b border-black/20 px-5 pt-[100px] md:px-10 pb-10 flex flex-col gap-4"
       >
         <SiMoneygram size="60px" color="#082f49" />
-        <h3 className="text-[1.5rem] font-medium">Innovation</h3>
+        <h3 className="text-[1.5rem] font-medium">Community</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis
+          Welcome to the heart of NIDO Hungary, your gateway to a vibrant and
+          supportive Nigerian community!
         </p>
       </div>
       <div
@@ -27,11 +27,10 @@ const Section2 = () => {
         className="w-full md:w-1/4 min-w-[200px] min-h-[300px] border-r border-b border-black/20 px-5 pt-[100px] md:px-10 pb-10 flex flex-col gap-4"
       >
         <FaRegLightbulb size="60px" color="#082f49" />
-        <h3 className="text-[1.5rem] font-medium">Creativity</h3>
+        <h3 className="text-[1.5rem] font-medium">Heritage</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis
+          we celebrate the beauty and richness of Nigerian heritage, empowering
+          you to share it with the world – right here in Hungary!
         </p>
       </div>
       <div
@@ -40,12 +39,11 @@ const Section2 = () => {
         data-aos-delay="200"
         className="w-full md:w-1/4 min-w-[200px] min-h-[300px] border-r border-b border-black/20 px-5 pt-[100px] md:px-10 pb-10 flex flex-col gap-4"
       >
-        <RiFundsBoxLine size="60px" color="#082f49" />
-        <h3 className="text-[1.5rem] font-medium">Funding</h3>
+        <TbWorldHeart size="60px" color="#082f49" />
+        <h3 className="text-[1.5rem] font-medium">Culture</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis
+          Hungary and Nigeria – two vibrant nations, each boasting a rich
+          tapestry of traditions, languages, and customs.
         </p>
       </div>
 
@@ -56,11 +54,10 @@ const Section2 = () => {
         className="w-full md:w-1/4 min-w-[200px] min-h-[300px] border-r border-b border-black/20 px-5 pt-[100px] md:px-10 pb-10 flex flex-col gap-4"
       >
         <MdBiotech size="60px" color="#082f49" />
-        <h3 className="text-[1.5rem] font-medium">Technology</h3>
+        <h3 className="text-[1.5rem] font-medium">Information</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis
+          We're here to empower you with the knowledge and resources you need to
+          feel confident and secure in Hungary.
         </p>
       </div>
     </section>

@@ -12,6 +12,9 @@ import Section4 from "../../components/home/Section4";
 import Section5 from "../../components/home/Section5";
 import Section6 from "../../components/home/Section6";
 import { useAppContext } from "../../contexts/AppContext";
+import Content2 from "../../components/home/Content2";
+import Content3 from "../../components/home/Content3";
+import Content4 from "../../components/home/Content4";
 
 const Homepage = () => {
   useEffect(() => {
@@ -41,7 +44,10 @@ const Homepage = () => {
         <Section1 />
         <Section2 />
         <Section3 />
+        <Content2 />
         <Section4 />
+        <Content3 />
+        <Content4 />
         <Section5 />
         <Section6 />
       </main>

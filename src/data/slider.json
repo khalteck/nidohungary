@@ -1,5 +1,11 @@
 [
   {
+    "image": "/images/slide3.jpg",
+    "title": "A blend of cultures:",
+    "body": "Where Nigeria Meets Hungary",
+    "tag": "Culture"
+  },
+  {
     "image": "/images/slide1.jpg",
     "title": "Experience the beauty of Nigeria",
     "body": "Beautiful people, beautiful culture",
@@ -11,12 +17,7 @@
     "body": "Settle down, plan and build a life in Hungary",
     "tag": "Life"
   },
-  {
-    "image": "/images/slide3.jpg",
-    "title": "A blend of cultures:",
-    "body": "Nigerians in Hungary",
-    "tag": "Culture"
-  },
+
   {
     "image": "/images/slide2.jpg",
     "title": "Celebrate your heritage in Hungary",

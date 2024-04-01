@@ -10,7 +10,7 @@ const DonateCard = ({ price, setSelectedPrice, setother }) => {
   return (
     <div
       onClick={handleSelect}
-      className="py-3 px-8 border-2 flex justify-center border-neutral-50 rounded-2xl text-[1rem] font-bold cursor-pointer hover:bg-neutral-50 hover:text-black transition-all duration-500"
+      className="py-3 px-8 border-2 flex justify-center border-[#082f49] rounded-2xl text-[1rem] font-bold cursor-pointer hover:bg-[#082f49] hover:text-neutral-50 transition-all duration-500"
     >
       {price === "Other" ? "" : "$"}
       {price?.toLocaleString()}
