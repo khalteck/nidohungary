@@ -1,26 +1,42 @@
 [
   {
     "image": "/images/slide1.jpg",
-    "title": "News title 1",
-    "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-    "slug": "news-title-1"
-  },
-  {
-    "image": "/images/slide1.jpg",
-    "title": "News title 2",
-    "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-    "slug": "news-title-2"
-  },
-  {
-    "image": "/images/slide1.jpg",
-    "title": "News title 3",
-    "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-    "slug": "news-title-3"
-  },
-  {
-    "image": "/images/slide1.jpg",
-    "title": "News title 4",
-    "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-    "slug": "news-title-4"
+    "title": "NIDO Hungary: Your One-Stop Shop for Nigerian Excellence!",
+    "preview": "Are you eager to stay connected to your vibrant community and celebrate the successes of your fellow Nigerians (both here and back home)? ",
+    "body": {
+      "paragraphs": [
+        "Greetings, all our amazing Nigerians in Hungary!",
+        "Are you eager to stay connected to your vibrant community and celebrate the successes of your fellow Nigerians (both here and back home)? Well, buckle up because NIDO Hungary is here to be your one-stop shop for all things Nigerian in Hungary!",
+        "This page is your gateway to a treasure trove of news and stories. We'll be shining a spotlight on the incredible achievements of Nigerians living in Hungary. From groundbreaking research to artistic brilliance and entrepreneurial ventures, we'll showcase the diverse ways our community is making Hungary proud.",
+        "But wait, there's more! We won't forget our roots. We'll also be keeping you updated on all the positive developments happening back in Nigeria. Uplifting stories, cultural celebrations, and reasons to hold your head high for the motherland – we'll bring it all straight to your fingertips. 🇳🇬",
+        "So, hit that 'like' button, subscribe to our notifications, and get ready to be inspired! Let's build a strong, connected community that celebrates Nigerian excellence on both sides of the Danube."
+      ]
+    },
+    "points": {
+      "title": "Here's a taste of what you can expect:",
+      "items": [
+        {
+          "title": "Profiles of Inspiring Nigerians in Hungary:",
+          "body": "Meet the doctors, engineers, artists, entrepreneurs, and more who are making waves in Hungary."
+        },
+        {
+          "title": "Community Events:",
+          "body": " Stay informed about upcoming Nigerian cultural celebrations, social gatherings, and networking opportunities."
+        },
+        {
+          "title": "Success Stories from Nigeria:",
+          "body": "Celebrate the achievements of Nigerians back home, from scientific breakthroughs to artistic triumphs."
+        },
+        {
+          "title": "Opportunities to Connect:",
+          "body": "Find ways to get involved with your fellow Nigerians and build a strong support network."
+        }
+      ]
+    },
+    "ending": [
+      "Let's paint Hungary (and the world!) with the vibrant colors of Nigerian excellence. Together, we soar! 🇳🇬🇭🇺",
+      "#NIDOHungary #NigeriansinHungary #Community #Success #Nigeria"
+    ],
+    "slug": "nidoHungary-your-one-stop-shop-for-nigerian-excellence!"
   }
 ]

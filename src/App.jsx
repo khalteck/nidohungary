@@ -13,6 +13,7 @@ const BlendOfCultures = lazy(() => import("./pages/client/BlendOfCultures"));
 const BuildALife = lazy(() => import("./pages/client/BuildALife"));
 const Heritage = lazy(() => import("./pages/client/Heritage"));
 const Experience = lazy(() => import("./pages/client/Experience"));
+const Community = lazy(() => import("./pages/client/Community"));
 
 const PageNotFound = lazy(() => import("./pages/common/PageNotFound"));
 
@@ -36,6 +37,7 @@ function App() {
           path="/experience-the-beauty-of-nigeria"
           element={<Experience />}
         />
+        <Route path="/community" element={<Community />} />
 
         {/* admin */}
 

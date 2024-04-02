@@ -14,11 +14,11 @@ const NewsCard = ({ item }) => {
       <img
         alt=""
         src={item?.image}
-        className="w-full h-[250px] object-cover object-center"
+        className="w-full h-[250px] object-cover object-center hover:scale-110 transition-all duration-300"
       />
       <div className="flex flex-col gap-3 p-4">
         <h3 className="text-[1.25rem] font-medium">{item?.title}</h3>
-        <p>{item?.body?.slice(0, 150)}...</p>
+        <p>{item?.preview?.slice(0, 150)}...</p>
         <button className="w-fit px-5 py-2 mt-2 bg-[#082f49] text-[.85rem] rounded-md text-white font-medium flex gap-2 items-center">
           Read more
           <FaArrowRightLong size="15px" color="white" />

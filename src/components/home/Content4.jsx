@@ -20,7 +20,7 @@ const Content4 = () => {
           data-aos-duration="800"
           data-aos-delay="200"
           alt=""
-          src="/images/slide3.jpg"
+          src="/images/nigeria.jpg"
           className="w-full md:w-1/2 h-auto md:hidden block"
         />
         <p className="leading-relaxed px-5 md:p-0">
@@ -42,7 +42,7 @@ const Content4 = () => {
         data-aos-duration="800"
         data-aos-delay="200"
         alt=""
-        src="/images/slide3.jpg"
+        src="/images/nigeria.jpg"
         className="w-full md:w-1/2 h-[600px] object-cover hidden md:block"
       />
     </section>

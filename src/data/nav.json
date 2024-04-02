@@ -2,7 +2,7 @@
   { "name": "Home", "link": "/", "route": true },
   { "name": "About Us", "link": "/about", "route": true },
   { "name": "News", "link": "/news", "route": false },
-  { "name": "Community", "link": "/community", "route": false },
+  { "name": "Community", "link": "/community", "route": true },
   { "name": "Information", "link": "/information", "route": true },
   { "name": "Contact Us", "link": "/contact", "route": true }
 ]

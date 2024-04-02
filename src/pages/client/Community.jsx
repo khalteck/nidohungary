@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 import Section6 from "../../components/home/Section6";
 import { PiStarFourFill } from "react-icons/pi";
 
-const About = () => {
+const Community = () => {
   return (
     <>
       <Header />
@@ -14,68 +14,59 @@ const About = () => {
       <main>
         <CommonSection1
           tag={"NidoHongary"}
-          title={"About Us"}
-          body={"NIDO Hungary: Your Bridge Between Nigeria and Hungary! 🇳🇬🇭🇺"}
+          title={"Community"}
+          body={"NIDO Hungary: Building Bridges, Building Unity! 🇭🇺🇳🇬"}
         />
         <section className="w-full bg-neutral-50 p-5 md:p-[100px] text-[1.2rem]">
           <div>
             <h1 className="text-[1.75rem] md:text-[2.5rem]">
-              Greetings, fellow Nigerians in Hungary!
+              Greetings, amazing Nigerians in Hungary!
             </h1>
             <p className="mt-5">
-              Welcome to NIDO Hungary, your one-stop shop for connection,
-              support, and celebrating all things Nigerian in the heart of
-              Hungary! We're more than just an organization; we're a vibrant
-              community dedicated to empowering Nigerians to thrive in their
-              Hungarian experience.
-            </p>
-            <h1 className="text-[1.75rem] mt-10">
-              Our Story: Rooted in Unity, Reaching for Success!
-            </h1>
-            <p className="mt-5">
-              NIDO Hungary was born from the desire to create a supportive
-              network for Nigerians living, working, or studying in Hungary. We
-              understand the challenges and joys of navigating a new country,
-              and we're here to bridge the gap between your Nigerian heritage
-              and your Hungarian present.
+              Welcome to the heart of NIDO Hungary, your gateway to a vibrant
+              and supportive Nigerian community! This page is all about
+              connecting you with your fellow Nigerians, fostering friendships,
+              and celebrating our shared heritage.
             </p>
           </div>
           <div className="mt-10 md:mt-[100px]">
             <div className="w-fit px-4 py-1 rounded-md border border-[#082f49] text-[#082f49] text-[.85rem] uppercase tracking-wider mb-4">
-              Unique
+              community
             </div>
             <h1 className="text-[1.75rem] md:text-[2.5rem] mb-4 md:mb-10">
-              What Makes Us Unique?
+              Here's what makes our NIDO Hungary community unique:
             </h1>
             <div className="w-full flex md:flex-row flex-col gap-5 md:gap-10 md:justify-end relative">
               <div className="w-full md:w-[50%] md:h-[550px] p-10 md:p-[50px] bg-[#082f49] text-white text-[1rem] md:absolute left-0 top-[50%] md:translate-y-[-50%] flex flex-col shadow-md">
                 <p className="mb-5">
-                  <span className="font-bold">A Celebration of Heritage:</span>{" "}
-                  We cherish our Nigerian roots and love to share them with the
-                  world. From cultural events to traditional delicacies, NIDO
-                  Hungary keeps the spirit of Nigeria alive in Hungary.
+                  <span className="font-bold">A Mosaic of Cultures:</span> We
+                  are doctors, students, entrepreneurs, artists, and more – all
+                  Nigerians who bring their unique talents and experiences to
+                  Hungary. Get ready to meet some truly inspiring individuals!
                   <br />
                   <br />
                   <span className="font-bold">
-                    Empowering Your Journey:
+                    Celebrating Nigerian Spirit:
                   </span>{" "}
-                  Whether you're a seasoned resident or a newcomer, NIDO Hungary
-                  offers a wealth of resources, from information about Hungarian
-                  immigration laws to tips on finding an apartment. We're here
-                  to help you build a successful life in Hungary.
+                  We cherish our Nigerian roots and love to share them with the
+                  world. Look forward to cultural events, traditional
+                  delicacies, and opportunities to showcase the beauty of
+                  Nigerian culture.
                   <br />
                   <br />
-                  <span className="font-bold">Building Bridges:</span> We
-                  believe in fostering connections between Nigerians in Hungary
-                  and the wider Hungarian community. Our events and initiatives
-                  promote cultural exchange and understanding.
+                  <span className="font-bold">Support Network:</span> Whether
+                  you're new to Hungary or a seasoned resident, NIDO Hungary is
+                  your support system. Need help finding an apartment? Craving a
+                  taste of home? Our community is here to lend a helping hand
+                  and offer friendly advice.
                   <br />
                   <br />
-                  <span className="font-bold">A Network of Support:</span> NIDO
-                  Hungary is your family away from home. Need help navigating
-                  the healthcare system? Craving a taste of home-cooked Nigerian
-                  food? Our community is here to lend a helping hand and offer
-                  friendly advice.
+                  <span className="font-bold">
+                    Networking & Mentorship:{" "}
+                  </span>{" "}
+                  We believe in empowering each other. This page will connect
+                  you with experienced Nigerians who can offer guidance and
+                  mentorship as you navigate your journey in Hungary.
                 </p>
                 <div className="mt-auto p-5 border-white/20 border w-fit">
                   <FaAngleDoubleDown size={"30px"} color="white" />
@@ -95,26 +86,27 @@ const About = () => {
               data-aos-duration="800"
               className="w-fit px-4 py-1 rounded-md border border-[#082f49] text-[#082f49] text-[.85rem] uppercase tracking-wider mb-4"
             >
-              Passion
+              family
             </div>
             <h1
               data-aos="fade-up"
               data-aos-duration="800"
               className="text-[1.75rem] md:text-[2.5rem]"
             >
-              Together, We Rise! 🇳🇬🇭🇺
+              TWe're more than just a community, we're a family! 🇳🇬🇭🇺
             </h1>
             <p
               data-aos="fade-up"
               data-aos-duration="800"
               className="mt-5 w-full md:w-[70%]"
             >
-              NIDO Hungary is more than just an organization; it's a movement.
-              We're a community of passionate Nigerians who are building a
-              brighter future for ourselves and future generations in Hungary.
+              NIDO Hungary is your platform to connect, share stories, and build
+              lasting friendships. So, don't be shy! Introduce yourself in the
+              comments below, share your experiences, and let's get to know each
+              other.
               <br />
               <span className="font-bold">
-                Here's what you can expect from NIDO Hungary:
+                Here are some ways to get involved:
               </span>
             </p>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5 smd:gap-10 mt-10">
@@ -128,11 +120,11 @@ const About = () => {
                   <PiStarFourFill size={"20px"} color="#082f49" />
                 </div>
                 <h3 className="font-bold text-[1.35rem]">
-                  Informative website:
+                  Join our online forum:
                 </h3>
                 <p>
-                  Explore our website for resources, news updates, and upcoming
-                  events.
+                  Discuss everything under the Hungarian sun, from finding the
+                  best Nigerian restaurant to upcoming events.
                 </p>
               </div>
               <div
@@ -145,26 +137,11 @@ const About = () => {
                   <PiStarFourFill size={"20px"} color="#082f49" />
                 </div>
                 <h3 className="font-bold text-[1.35rem]">
-                  Engaging social media:
+                  Attend our community gatherings:
                 </h3>
                 <p>
-                  Connect with fellow Nigerians, share your experiences, and
-                  stay updated on our latest initiatives.
-                </p>
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                className="w-full p-8 border border-[#082f49] flex flex-col gap-4 relative"
-              >
-                <div className="w-fit absolute -top-3 -left-3">
-                  <PiStarFourFill size={"20px"} color="#082f49" />
-                </div>
-                <h3 className="font-bold text-[1.35rem]">Vibrant events:</h3>
-                <p>
-                  Participate in cultural celebrations, networking events, and
-                  workshops designed to empower and connect our community.
+                  Mingle with fellow Nigerians, celebrate important occasions,
+                  and create lasting memories.
                 </p>
               </div>
               <div
@@ -177,11 +154,11 @@ const About = () => {
                   <PiStarFourFill size={"20px"} color="#082f49" />
                 </div>
                 <h3 className="font-bold text-[1.35rem]">
-                  Volunteer opportunities:
+                  Volunteer your skills:
                 </h3>
                 <p>
-                  Give back to the community and make a difference by sharing
-                  your skills and experience.
+                  Give back to the community and empower others by sharing your
+                  expertise.
                 </p>
               </div>
             </div>
@@ -189,15 +166,13 @@ const About = () => {
 
           <div className="mt-[100px]">
             <p className="mt-6 mb-3">
-              Join us and be part of something special! 🇳🇬🇭🇺
+              Together, let's build a strong and vibrant Nigerian community in
+              Hungary! 🇳🇬🇭🇺
             </p>
-            <p>
-              NIDO Hungary invites you to embrace the warmth of our community,
-              celebrate your heritage, and build a fulfilling life in Hungary.
-            </p>
+
             <p className="font-medium my-3">
-              #NIDOHungary #NigeriansinHungary #Community #Support #Empowerment
-              #Celebration
+              #NIDOHungary #NigeriansinHungary #Community #Support #Network
+              #Culture
             </p>
           </div>
         </section>
@@ -211,4 +186,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Community;
