@@ -15,7 +15,10 @@ const Section2 = () => {
         <HiOutlineMailOpen size="60px" color="#082f49" />
         <h3 className="text-[1.5rem] font-medium">Email us 24/7</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          Reach out to us by mail -{" "}
+          <a href="mailto:nidohungary24@gmail.com" className="underline">
+            nidohungary24@gmail.com
+          </a>
         </p>
       </div>
       <div
@@ -27,7 +30,7 @@ const Section2 = () => {
         <FaLocationDot size="60px" color="#082f49" />
         <h3 className="text-[1.5rem] font-medium">Location</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          Nigeria/hungary
         </p>
       </div>
       <div
@@ -39,7 +42,10 @@ const Section2 = () => {
         <FiPhoneCall size="60px" color="#082f49" />
         <h3 className="text-[1.5rem] font-medium">Call us 24/7</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          Get in touch -{" "}
+          <a href="tel:+34**********" className="underline">
+            +34 123 456 7890
+          </a>
         </p>
       </div>
 
@@ -52,7 +58,7 @@ const Section2 = () => {
         <MdMessage size="60px" color="#082f49" />
         <h3 className="text-[1.5rem] font-medium">Send a message</h3>
         <p className="block leading-relaxed text-neutral-900/70">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          Fill the form below..
         </p>
       </div>
     </section>

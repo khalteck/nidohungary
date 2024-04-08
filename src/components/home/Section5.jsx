@@ -11,10 +11,11 @@ const Section5 = () => {
       <h2 className="text-[1.5rem]">
         Stay up to date with happenings in Nigeria...
       </h2>
-      <div className="w-full mt-10 flex flex-wrap gap-7">
+      <div className="w-full mt-10 flex gap-7">
         {newsData?.map((item, index) => {
           return <NewsCard key={index} item={item} />;
         })}
+        {/* <div className=" min-w-[500px] h-full border border-neutral-950/50"></div> */}
       </div>
     </section>
   );

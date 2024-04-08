@@ -21,7 +21,9 @@ const TopStrip = () => {
         <div className="pr-3 md:px-5 py-2 flex gap-2 items-center justify-center">
           <MdOutlineEmail color="black" size="22px" />
           <p className="cursor-pointer uppercase hidden md:block">
-            info@nidohungary.ng
+            <a href="mailto:nidohungary24@gmail.com" className="">
+              nidohungary24@gmail.com
+            </a>
           </p>
           <p className="cursor-pointer uppercase md:hidden block">Contact</p>
         </div>
@@ -29,7 +31,9 @@ const TopStrip = () => {
         <div className="md:px-5 py-2 hidden md:flex gap-2 items-center justify-center">
           <FiPhoneCall color="black" size="20px" />
           <p className="cursor-pointer uppercase hidden md:block">
-            +123456789123
+            <a href="tel:+34**********" className="">
+              +34 123 456 7890
+            </a>
           </p>
         </div>
 
