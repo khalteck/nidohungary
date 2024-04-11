@@ -1,25 +1,25 @@
 [
   {
-    "image": "/images/slide3.jpg",
+    "image": "/images/slider1.jpg",
     "title": "A blend of cultures:",
     "body": "Where Nigeria Meets Hungary",
     "tag": "Culture"
   },
   {
-    "image": "/images/slide1.jpg",
+    "image": "/images/slider3.jpg",
     "title": "Experience the beauty of Nigeria",
     "body": "Beautiful people, beautiful culture",
     "tag": "Experience"
   },
   {
-    "image": "/images/slide2.jpg",
+    "image": "/images/build-life.jpg",
     "title": "Build a life in hungary",
     "body": "Settle down, plan and build a life in Hungary",
     "tag": "Life"
   },
 
   {
-    "image": "/images/slide2.jpg",
+    "image": "/images/heritage.jpg",
     "title": "Celebrate your heritage in Hungary",
     "body": "Join us in celebrating our culture and heritage in Hungary",
     "tag": "Heritage"

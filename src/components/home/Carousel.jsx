@@ -73,17 +73,10 @@ const Carousel = () => {
                     <div className="w-fit px-4 py-1 rounded-md border border-white text-white text-[.85rem] uppercase first-text">
                       {item?.tag}
                     </div>
-                    <h1 className="text-[2rem] md:text-[3rem] lg:text-[3.5rem] font-medium mt-2 first-text">
+                    <h1 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium mt-2 first-text">
                       {item?.title}
-                      {/* <Typewriter
-                        options={{
-                          strings: [item?.title],
-                          autoStart: false,
-                          loop: false,
-                        }}
-                      /> */}
                     </h1>
-                    <div className="w-[80%] md:pl-[100px] flex gap-5 mt-5 md:text-[.1.1rem]">
+                    <div className="w-[80%] md:pl-[100px] flex gap-5 mt-5 text-[1rem]">
                       <div className="w-[100px] h-[1px] bg-white mt-2 first-text"></div>
                       {item?.body}
                     </div>
